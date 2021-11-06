@@ -2,8 +2,8 @@ body {
   margin: 0;
 }
 img {
-  width: 30%;
-  margin: calc(10% / 6);
+  width: 200px;
+  height: 200px;
 }
 
 nav {
@@ -11,6 +11,16 @@ nav {
   border-bottom: 2px solid grey;
   font-size: 1.5em;
   width: 30%;
-  padding: 1.5em;
+  padding-bottom: 1.5em;
   margin: calc(10% / 6);
+}
+
+.container {
+  background-color: black;
+  width: 90%;
+  height: 500px;
+  margin: 0 auto;
+  border: 5px solid rgb(150, 71, 71);
+  display: flex;
+  flex-wrap: wrap;
 }
